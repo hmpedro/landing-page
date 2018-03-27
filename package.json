@@ -1,0 +1,17 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "Landing page example with Bootstrap 4",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server --open --hot",
+    "build": "webpack --progress --hide-modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hmpedro",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.3.0",
+    "webpack-dev-server": "^3.1.1"
+  }
+}

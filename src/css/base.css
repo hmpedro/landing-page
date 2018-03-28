@@ -1,3 +1,7 @@
 :root {
     --main-font-color: #F97300;
 }
+
+.navbar {
+    background-color: #F97300;
+}

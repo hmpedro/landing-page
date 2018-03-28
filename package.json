@@ -4,8 +4,8 @@
   "description": "Landing page example with Bootstrap 4",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
-    "watch": "parcel watch index.html",
+    "start": "parcel index.html --open",
+    "watch": "parcel watch index.html --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "hmpedro",

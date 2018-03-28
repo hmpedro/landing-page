@@ -4,14 +4,16 @@
   "description": "Landing page example with Bootstrap 4",
   "main": "index.js",
   "scripts": {
-    "start:dev": "webpack-dev-server --open --hot",
-    "build": "webpack --progress --hide-modules",
+    "start": "parcel index.html",
+    "watch": "parcel watch index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "hmpedro",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.3.0",
-    "webpack-dev-server": "^3.1.1"
+    "autoprefixer": "^8.2.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "postcss-modules": "^1.1.0"
   }
 }

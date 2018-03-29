@@ -1,0 +1,39 @@
+.header{
+    background-image: url('https://wallpapercave.com/wp/MimTr9D.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h3 {
+    color: var(--main-color);
+}
+
+.description p {
+    color: #000;
+    font-size: 18px;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.description button {
+    border: 1px solid var(--main-color);
+    background: var(--main-color);
+    color: #fff;
+}

@@ -1,0 +1,15 @@
+.portfolio {
+    margin: 4em 0;
+    position: relative;
+}
+
+.portfolio h1 {
+    color: var(--main-color);
+    margin: 2em;
+}
+
+.portfolio img {
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+}

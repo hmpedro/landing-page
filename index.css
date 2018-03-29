@@ -1,2 +1,6 @@
 @import './src/css/base.css';
+
 @import './src/css/components/navbar.css';
+@import './src/css/components/header.css';
+@import './src/css/components/section.css';
+@import './src/css/components/portfolio.css';

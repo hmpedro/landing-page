@@ -1,0 +1,28 @@
+.blog {
+    margin: 4em 0;
+}
+
+.blog h1 {
+    color: var(--main-color);
+}
+
+.blog .card {
+    box-shadow: 0 0 20px #ccc;
+}
+
+.blog .card img {
+    width: 100%;
+    height: 12em;
+}
+
+.blog .card-title {
+    color: var(--main-color);
+}
+
+.blog .card-text {
+    padding: 0 1em;
+}
+
+.blog .card-body {
+    padding: 1em;
+}
